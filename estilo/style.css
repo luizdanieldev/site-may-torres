@@ -109,7 +109,7 @@ main img.vestidos {
 }
 
 div.video {
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     margin-bottom: 30px;
     margin: 0px -20px 30px -20px;
     padding: 10px;
@@ -164,18 +164,15 @@ main a:hover {
     color: black;
 }
 
-aside {
-    padding: 10px;
+.quadrado {
+    background-color: var(--cor1);
+    border-radius: 10px 10px;
+    box-shadow: 0px 0px 1px;
+    width: 45%;
 }
 
-aside > h3 {
-    background-image: linear-gradient(to left, #f3f8f5, #f9fffb, #73d09d7c, #45a36fa0);
-    background-color: var(--cor4);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 10px 5px;
-    margin: -10px -10px 0px -10px;
-    color: var(--cor5);
+aside {
+    padding: 10px;
 }
 
 aside p {
