@@ -35,8 +35,13 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1), var(--cor2));
-    min-height: 150px;
+    background: #f0b4b6;
+}
+
+header > img {
+    max-width: 300px;
+    margin: auto;
+    display: block;
 }
 
 header > h1 {
@@ -61,9 +66,9 @@ header > p {
 }
 
 nav {
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.221);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.221);
     background-color: #d989899c;;
-    padding: 10px;
+    padding: 10px 0px;
     text-align: center;
 }
 
@@ -87,7 +92,7 @@ main {
     max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.451);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.451);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -208,10 +213,19 @@ main a:hover {
     margin: auto;
 }
 
+.contato {
+    padding: 5px 0px;
+    text-align: center;
+}
+
+#espaço {
+    padding-bottom: 50px;
+}
+
 .contatos {
     padding: 10px;
     margin: auto;
-    max-width: 60%;
+    max-width: 650px;
 }
 
 div > ul > p {
@@ -221,20 +235,20 @@ div > ul > p {
 aside > div {
     padding: 10px;
     margin: auto;
-    max-width: 80%;
+    max-width: 650px;
 }
 
 aside h3 {
     background-color: rgba(169, 169, 169, 0.179);
     color: var(--cor2);
-    padding: 10px;
-    margin: 10px;
+    padding: 10px 0px 10px 5px;
+    margin: 10px 0px;
 }
 
 aside p {
     text-align: justify;
-    padding: 10px;
-    margin: 10px;
+    padding: 10px 0px;
+    margin: 10px 0px;
 }
 
 aside ul > li {
